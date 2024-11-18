@@ -5,7 +5,6 @@
         <meta charset="UTF-8">
         <title>Taken Overzicht</title>
         <style>
-            /* Stijlen voor een professioneel uiterlijk */
             body {
                 font-family: 'Arial', sans-serif;
                 margin: 0;
@@ -19,12 +18,6 @@
                 margin-top: 20px;
                 font-size: 28px;
                 font-weight: bold;
-            }
-            .logo {
-                display: block;
-                margin: 20px auto;
-                width: 150px;
-                height: auto;
             }
             .accordion {
                 background-color: #ffffff;
@@ -68,10 +61,17 @@
                 color: white;
                 text-transform: uppercase;
             }
+            td.completed {
+                color: #4CAF50;
+                font-weight: bold;
+            }
+            td.not-completed {
+                color: #E53935;
+                font-weight: bold;
+            }
         </style>
     </head>
     <body>
-        <img src="KOP_beeldmerk_offwhite.png" alt="KOP Logo" class="logo">
         <h1>Taken Overzicht</h1>
     <h2>Afsluitlijst</h2>
         <button class="accordion">Important last check</button>
