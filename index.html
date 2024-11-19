@@ -3,10 +3,10 @@
     <html>
     <head>
         <meta charset="UTF-8">
-        <title>Overzicht van Dagelijkse Lijsten</title>
+        <title>Dagelijkse Overzichtslijsten</title>
         <style>
             body {{
-                font-family: 'Arial', sans-serif;
+                font-family: Arial, sans-serif;
                 background-color: #1c1c1c;
                 color: #f5f5f5;
                 margin: 0;
@@ -14,49 +14,35 @@
             }}
             h1 {{
                 text-align: center;
+                margin: 20px 0;
                 color: #ffffff;
-                margin-top: 20px;
-                font-size: 28px;
             }}
-            .date-container {{
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 10px;
-                padding: 20px;
-            }}
-            .date-box {{
-                background-color: #333333;
-                color: #ffffff;
-                padding: 15px 20px;
+            .link-box {{
+                margin: 20px auto;
+                padding: 10px;
+                background-color: #333;
+                color: #fff;
                 text-align: center;
-                text-decoration: none;
-                font-size: 18px;
-                font-weight: bold;
                 border-radius: 5px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-                transition: transform 0.2s, background-color 0.2s;
+                text-decoration: none;
+                display: block;
+                width: 80%;
+                max-width: 300px;
             }}
-            .date-box:hover {{
-                background-color: #4CAF50;
-                transform: scale(1.05);
+            .link-box:hover {{
+                background-color: #444;
             }}
             .footer {{
                 text-align: center;
-                color: #f5f5f5;
-                font-size: 12px;
+                color: #888;
+                font-size: 14px;
                 margin: 20px 0;
-                padding: 10px 0;
-                background-color: #333333;
-                border-top: 1px solid #444444;
             }}
         </style>
     </head>
     <body>
         <h1>Dagelijkse Overzichtslijsten</h1>
-        <div class="date-container">
-    <a href="2024-11-19_00-25-01.html" class="date-box">2024-11-19_00-25-01</a><a href="2024-11-19_00-28-37.html" class="date-box">2024-11-19_00-28-37</a><a href="2024-11-19_00-36-52.html" class="date-box">2024-11-19_00-36-52</a><a href="2024-11-19_00-43-32.html" class="date-box">2024-11-19_00-43-32</a><a href="index.html" class="date-box">index</a>
-        </div>
+    <a class="link-box" href="2024-11-19_00-25-01.html">2024-11-19_00-25-01</a><a class="link-box" href="2024-11-19_00-28-37.html">2024-11-19_00-28-37</a><a class="link-box" href="2024-11-19_00-36-52.html">2024-11-19_00-36-52</a><a class="link-box" href="2024-11-19_00-43-32.html">2024-11-19_00-43-32</a><a class="link-box" href="2024-11-19_00-48-38.html">2024-11-19_00-48-38</a><a class="link-box" href="index.html">index</a><a class="link-box" href="2024-11-19_00-53-22.html">2024-11-19_00-53-22</a>
         <div class="footer">© 2024 KOP - Alle rechten voorbehouden</div>
     </body>
     </html>
